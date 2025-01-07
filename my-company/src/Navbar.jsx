@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 function Navbar() {
@@ -7,6 +6,9 @@ function Navbar() {
       style={{
         width: "100%",
         height: "8vh",
+        margin: "0",
+        padding: "0",
+        boxSizing: "border-box",
         backgroundColor: "orangered",
         display: "flex",
         justifyContent: "center",

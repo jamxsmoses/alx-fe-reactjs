@@ -1,5 +1,3 @@
-import React from "react";
-
 function Home() {
   return (
     <div
@@ -12,7 +10,6 @@ function Home() {
         justifyContent: "center",
         flexDirection: "column",
         height: "92vh",
-        boxSizing: "border-box",
       }}
     >
       <h1 style={{ margin: "0" }}>Welcome to Our Company</h1>
