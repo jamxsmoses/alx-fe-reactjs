@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import data from "./daja.json";
+import data from "../daja.json";
 import { useState, useEffect } from "react";
 
 function Homepage() {
