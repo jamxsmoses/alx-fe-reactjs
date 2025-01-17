@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Homepage from "./components/Homepage";
+import HomePage from "./components/Homepage";
 import RecipeDetail from "./components/RecipeDetail";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <div className="app box-border p-5 bg-black content-center justify-items-center">
           <Routes>
-            <Route path="" element={<Homepage />} />
+            <Route path="" element={<HomePage />} />
             <Route path="/:id" element={<RecipeDetail />} />
           </Routes>
         </div>

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import data from "../daja.json";
 import { useState, useEffect } from "react";
 
-function Homepage() {
+function HomePage() {
   const [recipeData, setRecipeData] = useState([]);
 
   useEffect(() => {
@@ -38,4 +38,4 @@ function Homepage() {
   );
 }
 
-export default Homepage;
+export default HomePage;
