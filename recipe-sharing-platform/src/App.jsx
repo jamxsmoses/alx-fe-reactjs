@@ -1,7 +1,7 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Homepage from "./components/Homepage";
-import Recipe from "./Recipe";
+import RecipeDetail from "./components/RecipeDetail";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <div className="app box-border p-5 bg-black content-center justify-items-center">
         <Routes>
           <Route path="" element={<Homepage />} />
-          <Route path="/:id" element={<Recipe />} />
+          <Route path="/:id" element={<RecipeDetail />} />
         </Routes>
       </div>
     </>
